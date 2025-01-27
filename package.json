@@ -1,0 +1,31 @@
+{
+  "name": "html-compress-api",
+  "version": "1.0.0",
+  "description": "A simple API to compress HTML",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImShyMike/HTML-Compress-API.git"
+  },
+  "keywords": [
+    "HTML",
+    "compress"
+  ],
+  "author": "ShyMike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ImShyMike/HTML-Compress-API/issues"
+  },
+  "homepage": "https://github.com/ImShyMike/HTML-Compress-API#readme",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0"
+  },
+  "dependencies": {
+    "pako": "^2.1.0"
+  }
+}
