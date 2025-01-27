@@ -38,5 +38,3 @@ export function compress(input, type) {
         saved_bytes: input.length - compressed.length, // Number of bytes saved
     };
 }
-
-console.log(compressToDataURI('Hello, world!'));
